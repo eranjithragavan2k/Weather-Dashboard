@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.navbar {
+  padding: 20px;
+  text-align: center;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.weather-card {
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+}
+
+.chart-container {
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.history-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.alert-box {
+  text-align: center;
+  color: yellow;
+}
